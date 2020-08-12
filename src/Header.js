@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Header.css';
 
 const Header = () => {
@@ -13,7 +12,7 @@ const Header = () => {
                 <h3 className="cursor-pointer">About Us</h3>
                 <h3 className="cursor-pointer">Services</h3>
                 <h3 className="cursor-pointer">Contact Us</h3>
-                <h3 className="cursor-pointer">Cart</h3>
+                <img className="cursor-pointer cart-logo" alt="cart-logo" src="https://image.flaticon.com/icons/svg/1011/1011494.svg" />
             </nav>
 
         </div>
